@@ -3,7 +3,7 @@ import '@pnotify/core/dist/PNotify.css';
 
 import { defaults } from '@pnotify/core';
 defaults.minHeight = '20px'; //! на нотификации какой-то скролл, пытаюсь убрать его, но не работает
-defaults.delay = 3000;
+defaults.delay = 5000;
 
 import { alert, notice, info, success, error } from '@pnotify/core';
 
