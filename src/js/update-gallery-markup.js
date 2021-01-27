@@ -1,6 +1,9 @@
 import refs from './refs';
 import galleryItemTemplate from '../templates/gallery-item.hbs';
-import { createSuccessNotification, createErrorNotification } from './notifications';
+import {
+  createSuccessNotification,
+  createErrorNotification,
+} from './notifications';
 
 export default function updateGalleryMarkup(arrayOfImages) {
   if (arrayOfImages.length === 0) {
@@ -12,5 +15,5 @@ export default function updateGalleryMarkup(arrayOfImages) {
 
   const markup = galleryItemTemplate(arrayOfImages);
   refs.gallery.insertAdjacentHTML('beforeend', markup);
-      createSuccessNotification();
+  createSuccessNotification();
 }
