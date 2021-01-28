@@ -20,6 +20,8 @@
   width: 320px;
   padding: 12px 20px;
 
+  margin-left: 16px;
+
   border: none;
   border-radius: 21px;
   background-color: var(--light-grey);
