@@ -37,6 +37,15 @@ ul {
   list-style: none;
 }
 
+a {
+  display: inline-block;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+}
+
 @import './css/form.css';
 @import './css/gallery.css';
 @import './css/button.css';
