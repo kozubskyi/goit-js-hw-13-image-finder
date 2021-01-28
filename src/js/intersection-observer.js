@@ -9,7 +9,7 @@ const options = {
 function onEntry(entries, observer) {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      console.log(entry);
+      // console.log(entry);
       fetchImages();
     }
   });
