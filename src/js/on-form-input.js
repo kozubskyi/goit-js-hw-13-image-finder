@@ -10,5 +10,7 @@ export default function onFormInput(event) {
 
   apiService.resetPage();
 
+  refs.loadMoreBtn.classList.add('is-hidden');
+
   fetchImages();
 }

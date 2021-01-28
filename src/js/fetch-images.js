@@ -3,8 +3,6 @@ import apiService from './apiService';
 import updateGalleryMarkup from './update-gallery-markup';
 
 export default function fetchImages() {
-  refs.loadMoreBtn.classList.add('is-hidden');
-
   if (apiService.query === '') {
     return;
   }
