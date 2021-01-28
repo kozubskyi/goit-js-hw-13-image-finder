@@ -7,7 +7,7 @@
 
   margin-bottom: 80px;
 
-  min-width: 100vw;
+  width: 100vw;
   min-height: 80px;
 
   background-color: var(--light-black);
@@ -16,11 +16,13 @@
   z-index: 1;
 }
 
+#search-form .input-container {
+  position: relative;
+}
+
 #search-form input {
   width: 320px;
   padding: 12px 20px;
-
-  /* margin-left: 15px; */
 
   border: none;
   border-radius: 21px;
@@ -40,7 +42,8 @@
 .clear-icon {
   position: absolute;
 
-  transform: translate(433%, 0);
+  top: 5px;
+  right: 5px;
 
   font-size: 12px;
   color: white;
@@ -52,7 +55,7 @@
   border: none;
   border-radius: 16px;
 
-  background-color: inherit;
+  background-color: var(--light-black);
 
   cursor: pointer;
   outline: none;
