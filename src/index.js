@@ -6,6 +6,7 @@ import refs from './js/refs';
 import getLastSearchQuery from './js/local-storage';
 import onFormInput from './js/on-form-input';
 import fetchImages from './js/fetch-images';
+import observer from './js/intersection-observer';
 
 import { debounce } from 'lodash';
 
@@ -18,3 +19,5 @@ refs.loadMoreBtn.addEventListener('click', fetchImages);
 // JS-code
 
 getLastSearchQuery();
+
+observer.observe(refs.loadMoreBtn);
