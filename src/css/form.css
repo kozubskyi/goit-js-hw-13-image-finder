@@ -11,7 +11,7 @@
   min-height: 80px;
 
   background-color: var(--light-black);
-  box-shadow: 0 0 25px 5px red;
+  /* box-shadow: 0 0 25px 5px red; */
 
   z-index: 1;
 }
@@ -63,5 +63,5 @@
 
 .clear-icon:hover,
 .clear-icon:focus {
-  background-color: rgb(55, 55, 55);
+  background-color: rgb(66, 66, 66);
 }
