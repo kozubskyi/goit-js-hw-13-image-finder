@@ -4,7 +4,7 @@ import '../../node_modules/basiclightbox/dist/basicLightbox.min.css';
 export default function openModal(event) {
   event.preventDefault();
 
-  console.log(event.target);
+  // console.log(event.target);
 
   if (event.target.nodeName === 'IMG') {
     basicLightbox
