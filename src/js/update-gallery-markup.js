@@ -7,7 +7,7 @@ import {
 
 export default function updateGalleryMarkup(arrayOfImages) {
   if (arrayOfImages.length === 0) {
-    // refs.gallery.innerHTML = `<p style="font-weight: bold; font-size: 32px">Ничего не найдено</p>`;
+    refs.gallery.innerHTML = `<p style="font-weight: bold; font-size: 32px">Ничего не найдено</p>`;
     createErrorNotification();
     refs.loadMoreBtn.classList.add('is-hidden');
     return;
