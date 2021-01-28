@@ -9,7 +9,7 @@ import { alert, notice, info, success, error } from '@pnotify/core';
 
 function createSuccessNotification() {
   const SuccessNotification = success({
-    text: 'Your request has been successfully processed.',
+    text: 'Your query has been successfully handled.',
   });
 }
 
