@@ -12,7 +12,7 @@ export default {
     return fetch(url)
       .then(response => response.json())
       .then(data => {
-        console.log(data.hits);
+        // console.log(data.hits);
         this.page += 1;
         return data.hits;
       })
