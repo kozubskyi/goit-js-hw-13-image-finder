@@ -1,3 +1,5 @@
+import fetchImages from './fetch-images';
+
 const pixabayAPIKey = '20023331-464bd2371129c2e39a7fc1f52';
 let perPage = 12;
 
