@@ -1,5 +1,3 @@
-import fetchImages from './fetch-images';
-
 const pixabayAPIKey = '20023331-464bd2371129c2e39a7fc1f52';
 let perPage = 12;
 
@@ -12,7 +10,7 @@ export default {
     return fetch(url)
       .then(response => response.json())
       .then(data => {
-        // console.log(data.hits);
+        console.log(data.hits);
         this.page += 1;
         return data.hits;
       })

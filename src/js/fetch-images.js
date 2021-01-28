@@ -12,10 +12,9 @@ export default function fetchImages() {
   apiService.fetchImages().then(images => {
     refs.loadMoreBtn.classList.remove('is-hidden');
     updateGalleryMarkup(images);
-  });
-
-  window.scrollTo({
-    top: document.documentElement.offsetHeight,
-    behavior: 'smooth',
+    window.scrollTo({
+      top: document.documentElement.offsetHeight - 840,
+      behavior: 'smooth',
+    });
   });
 }
